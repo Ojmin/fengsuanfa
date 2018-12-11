@@ -1,0 +1,530 @@
+2018-11-27 10:55:43,603-__main__-ERROR-合并数据 Error:
+Traceback (most recent call last):
+  File "D:/xinyan/engine/111.py", line 32, in <module>
+    new_data.update(baseInfo)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+2018-11-27 10:55:43,603-__main__-INFO-Traceback (most recent call last):
+  File "D:/xinyan/engine/111.py", line 32, in <module>
+    new_data.update(baseInfo)
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+
+2018-11-27 10:56:58,918-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 10:56:58,919-engine.derivation_param-INFO-param_generate:
+2018-11-27 10:56:58,920-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 41, in param_generate
+    zw_order = str(text['data']['orderNo'])
+KeyError: 'orderNo'
+
+2018-11-27 11:03:16,557-__main__-ERROR-合并数据 Error:
+Traceback (most recent call last):
+  File "D:/xinyan/engine/111.py", line 36, in <module>
+    f.write(new_data)
+TypeError: write() argument must be str, not dict
+2018-11-27 11:03:16,558-__main__-INFO-Traceback (most recent call last):
+  File "D:/xinyan/engine/111.py", line 36, in <module>
+    f.write(new_data)
+TypeError: write() argument must be str, not dict
+
+2018-11-27 11:04:01,565-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 11:04:01,567-engine.derivation_param-INFO-param_generate:
+2018-11-27 11:04:01,568-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 41, in param_generate
+    zw_order = str(text['data']['orderNo'])
+KeyError: 'orderNo'
+
+2018-11-27 11:06:51,152-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 11:06:51,153-engine.derivation_param-INFO-param_generate:
+2018-11-27 11:06:51,154-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 41, in param_generate
+    zw_order = str(text['data']['orderNo'])
+KeyError: 'orderNo'
+
+2018-11-27 11:30:52,116-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 11:30:52,117-engine.derivation_param-INFO-param_generate:
+2018-11-27 11:30:52,118-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 52, in param_generate
+    'huabei_totalcreditamount'] if 'alipaywealth' in huabei_base_data.keys() else ''
+TypeError: string indices must be integers
+
+2018-11-27 11:30:52,119-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 11:30:52,119-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 11:38:27,910-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 11:38:27,911-engine.derivation_param-INFO-param_generate:
+2018-11-27 11:38:27,912-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 52, in param_generate
+    'huabei_totalcreditamount'] if 'alipaywealth' in huabei_base_data.keys() else ''
+TypeError: string indices must be integers
+
+2018-11-27 11:38:27,912-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 11:38:27,913-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 13:42:40,228-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 13:42:40,229-engine.derivation_param-INFO-param_generate:
+2018-11-27 13:42:40,230-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 52, in param_generate
+    'huabei_totalcreditamount'] if 'alipaywealth' in huabei_base_data.keys() else ''
+TypeError: string indices must be integers
+
+2018-11-27 13:42:40,230-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 13:42:40,231-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 13:51:25,507-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 13:51:25,508-engine.derivation_param-INFO-param_generate:
+2018-11-27 13:51:25,509-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 52, in param_generate
+    'huabei_totalcreditamount'] if 'alipaywealth' in huabei_base_data.keys() else ''
+TypeError: string indices must be integers
+
+2018-11-27 13:51:25,509-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 13:51:25,510-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 14:30:56,161-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 14:30:56,162-engine.derivation_param-INFO-param_generate:
+2018-11-27 14:30:56,173-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 52, in param_generate
+    'huabei_totalcreditamount'] if 'alipaywealth' in huabei_base_data.keys() else ''
+TypeError: string indices must be integers
+
+2018-11-27 14:30:56,173-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 14:30:56,173-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 15:56:41,105-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 15:56:41,106-engine.derivation_param-INFO-param_generate:
+2018-11-27 15:56:41,108-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 52, in param_generate
+    'huabei_totalcreditamount'] if 'alipaywealth' in huabei_base_data.keys() else ''
+TypeError: string indices must be integers
+
+2018-11-27 15:56:41,108-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 15:56:41,108-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:01:05,665-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:01:05,665-engine.derivation_param-INFO-param_generate:
+2018-11-27 16:01:05,666-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 52, in param_generate
+    'huabei_totalcreditamount'] if 'alipaywealth' in huabei_base_data.keys() else ''
+TypeError: string indices must be integers
+
+2018-11-27 16:01:05,667-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:01:05,667-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:02:28,654-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:02:28,655-engine.derivation_param-INFO-param_generate:
+2018-11-27 16:02:28,656-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 52, in param_generate
+    'huabei_totalcreditamount'] if 'alipaywealth' in huabei_base_data.keys() else ''
+TypeError: string indices must be integers
+
+2018-11-27 16:02:28,656-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:02:28,657-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:05:25,599-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:05:25,600-engine.derivation_param-INFO-HCBL011811241355056281,通话记录解析错误
+2018-11-27 16:05:25,601-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 80, in param_generate
+    call_base_param = text['data']['loanBondOrignalData']['message']
+TypeError: string indices must be integers
+
+2018-11-27 16:05:25,607-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 113, in param_generate
+    mail_data = {'contact_phone': list(map(lambda x: x['phone'], mail_list)),
+  File "D:\xinyan\engine\derivation_param.py", line 113, in <lambda>
+    mail_data = {'contact_phone': list(map(lambda x: x['phone'], mail_list)),
+TypeError: string indices must be integers
+
+2018-11-27 16:05:25,607-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:05:25,609-engine.derivation_param-INFO-calls is empty
+2018-11-27 16:05:25,609-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:05:25,609-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:06:54,803-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:06:54,805-engine.derivation_param-INFO-HCBL011811241355056281,通话记录解析错误
+2018-11-27 16:06:54,806-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 80, in param_generate
+    call_base_param = text['data']['loanBondOrignalData']['message']
+TypeError: string indices must be integers
+
+2018-11-27 16:06:54,812-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 113, in param_generate
+    mail_data = {'contact_phone': list(map(lambda x: x['phone'], mail_list)),
+  File "D:\xinyan\engine\derivation_param.py", line 113, in <lambda>
+    mail_data = {'contact_phone': list(map(lambda x: x['phone'], mail_list)),
+TypeError: string indices must be integers
+
+2018-11-27 16:06:54,813-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:06:54,814-engine.derivation_param-INFO-calls is empty
+2018-11-27 16:06:54,814-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:06:54,814-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:12:24,962-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:12:24,963-engine.derivation_param-INFO-HCBL011811241355056281,通话记录解析错误
+2018-11-27 16:12:24,964-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 80, in param_generate
+    call_base_param = text['data']['loanBondOrignalData']['message']
+TypeError: list indices must be integers or slices, not str
+
+2018-11-27 16:12:24,971-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:12:24,972-engine.derivation_param-INFO-calls is empty
+2018-11-27 16:12:24,973-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:12:24,973-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:20:27,239-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:20:27,240-engine.derivation_param-INFO-HCBL011811241355056281,通话记录解析错误
+2018-11-27 16:20:27,242-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 80, in param_generate
+    call_base_param = text['data']['loanBondOrignalData']['smses']
+TypeError: list indices must be integers or slices, not str
+
+2018-11-27 16:20:27,248-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:20:27,250-engine.derivation_param-INFO-calls is empty
+2018-11-27 16:20:27,250-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:20:27,250-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:36:31,860-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:36:31,861-engine.derivation_param-INFO-HCBL011811241355056281,通话记录解析错误
+2018-11-27 16:36:31,862-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 80, in param_generate
+    call_base_param = text['data']['loanBondOrignalData']['message']
+TypeError: list indices must be integers or slices, not str
+
+2018-11-27 16:36:31,867-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:36:31,869-engine.derivation_param-INFO-calls is empty
+2018-11-27 16:36:31,869-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:36:31,869-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:38:46,506-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:38:46,507-engine.derivation_param-INFO-HCBL011811241355056281,通话记录解析错误
+2018-11-27 16:38:46,509-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 80, in param_generate
+    call_base_param = text['data']['loanBondOrignalData']['message']
+TypeError: list indices must be integers or slices, not str
+
+2018-11-27 16:38:46,515-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:38:46,517-engine.derivation_param-INFO-calls is empty
+2018-11-27 16:38:46,517-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:38:46,517-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:40:00,576-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:40:00,577-engine.derivation_param-INFO-HCBL011811241355056281,通话记录解析错误
+2018-11-27 16:40:00,578-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 80, in param_generate
+    call_base_param = text['data']['loanBondOrignalData']['message']
+TypeError: list indices must be integers or slices, not str
+
+2018-11-27 16:40:00,583-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:40:00,584-engine.derivation_param-INFO-calls is empty
+2018-11-27 16:40:00,584-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:40:00,584-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:40:18,237-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:40:18,239-engine.derivation_param-INFO-HCBL011811241355056281,calls:获取成功
+2018-11-27 16:40:18,239-engine.derivation_param-INFO-HCBL011811241355056281,通话记录解析错误
+2018-11-27 16:40:18,240-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 82, in param_generate
+    call_base_list = text['data']['loanBondOrignalData']['data'][0]['calls'] if '获取原始数据成功' else []
+TypeError: list indices must be integers or slices, not str
+
+2018-11-27 16:40:18,246-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:40:18,247-engine.derivation_param-INFO-calls is empty
+2018-11-27 16:40:18,247-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:40:18,247-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:42:31,201-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:42:31,202-engine.derivation_param-INFO-HCBL011811241355056281,calls:获取成功
+2018-11-27 16:42:31,202-engine.derivation_param-INFO-HCBL011811241355056281,calls:{"start_time": "2018-09-10 12:12:32", "update_time": "2018-11-24 14:34:06", "use_time": 12, "subtotal": 0, "place": "\u897f\u5b89\u5e02", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb", "other_cell_phone": "13289287274", "cell_phone": "15202984598"}
+2018-11-27 16:42:31,203-engine.derivation_param-INFO-HCBL011811241355056281,通话记录307个
+2018-11-27 16:42:31,205-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:42:31,463-engine.derivation_param-INFO-HCBL011811241355056281,静默超过1天次数,silent_ge_1:68.0,静默超过2天次数,silent_ge_2:19.0
+2018-11-27 16:42:31,543-engine.derivation_param-INFO-HCBL011811241355056281,最近3个月被叫个数,month3_called:87.0,6个月的被叫个数,month6_called:202.0,比值:0.4306930693069307
+2018-11-27 16:42:31,543-engine.derivation_param-INFO-HCBL011811241355056281,最近1个月被叫个数,month1_called:33.0,3个月的被叫个数,month3_called:87.0,比值:0.3793103448275862
+2018-11-27 16:42:31,543-engine.derivation_param-INFO-HCBL011811241355056281,最近3个月被叫个数,month3_called_update:88.0,6个月的被叫个数,month6_called_update:202.0,比值:0.43564356435643564
+2018-11-27 16:42:31,544-engine.derivation_param-INFO-HCBL011811241355056281,最近1个月被叫个数,month1_called_update:38.0,3个月的被叫个数,month3_called_update:88.0,比值:0.4318181818181818
+2018-11-27 16:42:31,550-engine.derivation_param-INFO-HCBL011811241355056281,最近180天订单金额求和:[[53096.]]
+2018-11-27 16:42:31,581-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内30s内被叫次数,day7_called:2.0,3个月内30s内被叫次数,day90_called:48.0,比值:0.041666666666666664
+2018-11-27 16:42:31,604-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内30s内被叫次数,day7_called:4.0,3个月内30s内被叫次数,day90_called:48.0,比值:0.08333333333333333
+2018-11-27 16:42:31,627-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内20s内被叫次数,day7_called_20:2.0,3个月内20s内被叫次数,day90_called_20:35.0,比值:0.05714285714285714
+2018-11-27 16:42:31,664-engine.derivation_param-INFO-HCBL011811241355056281,一个月内5秒被叫次数:1.0,一个月内20秒被叫次数:16.0,三个月内5秒以内的通话次数:1.0
+2018-11-27 16:42:31,709-engine.derivation_param-INFO-HCBL011811241355056281,一个月内5秒被叫次数:1.0,一个月内20秒被叫次数:18.0,三个月内5秒以内的通话次数:1.0
+2018-11-27 16:42:31,811-engine.derivation_param-INFO-HCBL011811241355056281,最近30天1点到8点通话个数:1.0,最近30天8点到12点通话个数:21.0,最近7天22点到1点通话个数计数:10.0,最近30天22点到1点通话个数计数:10.0,最近7天8点到12点通话个数计数:2.0,最近30天通话个数计数与最近180天通话个数计数比值:0.21172638436482086,最近30天通话联系人:26
+2018-11-27 16:42:31,822-engine.derivation_param-INFO-HCBL011811241355056281,最近30天通话个数:57.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.017543859649122806
+2018-11-27 16:42:31,834-engine.derivation_param-INFO-HCBL011811241355056281,通话1分钟以下的电话数:97.0
+2018-11-27 16:42:31,922-engine.derivation_param-INFO-HCBL011811241355056281,三个月内10秒以内的被叫通话次数:9.0,三个月内5秒以内的被叫通话次数:1.0,三个月内20秒以内的主叫通话次数:11.0,一个星期内和一个月内60秒以内的被叫通话次数:0.2,一个星期内10秒以内的被叫通话次数:1.0
+2018-11-27 16:42:31,946-engine.derivation_param-INFO-HCBL011811241355056281,通话一次的手机号数量:79.0
+2018-11-27 16:42:31,959-engine.derivation_param-INFO-HCBL011811241355056281,历史平均联系人通话时长:321.0
+2018-11-27 16:42:32,039-engine.derivation_param-INFO-HCBL011811241355056281,通讯录手机号码占总数的比值:1.0
+2018-11-27 16:42:32,051-engine.derivation_param-INFO-param_generate:
+2018-11-27 16:42:32,051-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 613, in param_generate
+    vip_count = text['data']['moxieTaobao']['userinfo']['vip_count'] if text['data']['moxieTaobao'] else ''
+KeyError: 'userinfo'
+
+2018-11-27 16:42:32,051-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:42:32,052-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:48:33,487-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:48:33,489-engine.derivation_param-INFO-HCBL011811241355056281,花呗额度，huabei_totalcreditamount:900000.0
+2018-11-27 16:48:33,489-engine.derivation_param-INFO-HCBL011811241355056281,calls:获取成功
+2018-11-27 16:48:33,489-engine.derivation_param-INFO-HCBL011811241355056281,calls:{"start_time": "2018-09-10 12:12:32", "update_time": "2018-11-24 14:34:06", "use_time": 12, "subtotal": 0, "place": "\u897f\u5b89\u5e02", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb", "other_cell_phone": "13289287274", "cell_phone": "15202984598"}
+2018-11-27 16:48:33,489-engine.derivation_param-INFO-HCBL011811241355056281,通话记录307个
+2018-11-27 16:48:33,492-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:48:33,600-engine.derivation_param-INFO-HCBL011811241355056281,静默超过1天次数,silent_ge_1:68.0,静默超过2天次数,silent_ge_2:19.0
+2018-11-27 16:48:33,671-engine.derivation_param-INFO-HCBL011811241355056281,最近3个月被叫个数,month3_called:87.0,6个月的被叫个数,month6_called:202.0,比值:0.4306930693069307
+2018-11-27 16:48:33,671-engine.derivation_param-INFO-HCBL011811241355056281,最近1个月被叫个数,month1_called:33.0,3个月的被叫个数,month3_called:87.0,比值:0.3793103448275862
+2018-11-27 16:48:33,671-engine.derivation_param-INFO-HCBL011811241355056281,最近3个月被叫个数,month3_called_update:88.0,6个月的被叫个数,month6_called_update:202.0,比值:0.43564356435643564
+2018-11-27 16:48:33,671-engine.derivation_param-INFO-HCBL011811241355056281,最近1个月被叫个数,month1_called_update:38.0,3个月的被叫个数,month3_called_update:88.0,比值:0.4318181818181818
+2018-11-27 16:48:33,678-engine.derivation_param-INFO-HCBL011811241355056281,最近180天订单金额求和:[[53096.]]
+2018-11-27 16:48:33,704-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内30s内被叫次数,day7_called:2.0,3个月内30s内被叫次数,day90_called:48.0,比值:0.041666666666666664
+2018-11-27 16:48:33,728-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内30s内被叫次数,day7_called:4.0,3个月内30s内被叫次数,day90_called:48.0,比值:0.08333333333333333
+2018-11-27 16:48:33,752-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内20s内被叫次数,day7_called_20:2.0,3个月内20s内被叫次数,day90_called_20:35.0,比值:0.05714285714285714
+2018-11-27 16:48:33,791-engine.derivation_param-INFO-HCBL011811241355056281,一个月内5秒被叫次数:1.0,一个月内20秒被叫次数:16.0,三个月内5秒以内的通话次数:1.0
+2018-11-27 16:48:33,830-engine.derivation_param-INFO-HCBL011811241355056281,一个月内5秒被叫次数:1.0,一个月内20秒被叫次数:18.0,三个月内5秒以内的通话次数:1.0
+2018-11-27 16:48:33,946-engine.derivation_param-INFO-HCBL011811241355056281,最近30天1点到8点通话个数:1.0,最近30天8点到12点通话个数:21.0,最近7天22点到1点通话个数计数:10.0,最近30天22点到1点通话个数计数:10.0,最近7天8点到12点通话个数计数:2.0,最近30天通话个数计数与最近180天通话个数计数比值:0.21172638436482086,最近30天通话联系人:26
+2018-11-27 16:48:33,961-engine.derivation_param-INFO-HCBL011811241355056281,最近30天通话个数:57.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.017543859649122806
+2018-11-27 16:48:33,975-engine.derivation_param-INFO-HCBL011811241355056281,通话1分钟以下的电话数:97.0
+2018-11-27 16:48:34,070-engine.derivation_param-INFO-HCBL011811241355056281,三个月内10秒以内的被叫通话次数:9.0,三个月内5秒以内的被叫通话次数:1.0,三个月内20秒以内的主叫通话次数:11.0,一个星期内和一个月内60秒以内的被叫通话次数:0.2,一个星期内10秒以内的被叫通话次数:1.0
+2018-11-27 16:48:34,095-engine.derivation_param-INFO-HCBL011811241355056281,通话一次的手机号数量:79.0
+2018-11-27 16:48:34,108-engine.derivation_param-INFO-HCBL011811241355056281,历史平均联系人通话时长:321.0
+2018-11-27 16:48:34,195-engine.derivation_param-INFO-HCBL011811241355056281,通讯录手机号码占总数的比值:1.0
+2018-11-27 16:48:34,211-engine.derivation_param-INFO-param_generate:
+2018-11-27 16:48:34,211-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 743, in param_generate
+    values) if values else float(0)
+ValueError: could not convert string to float: 'N'
+
+2018-11-27 16:48:34,211-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:48:34,211-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 16:59:24,366-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 16:59:24,367-engine.derivation_param-INFO-HCBL011811241355056281,花呗额度，huabei_totalcreditamount:900000.0
+2018-11-27 16:59:24,368-engine.derivation_param-INFO-HCBL011811241355056281,calls:获取成功
+2018-11-27 16:59:24,368-engine.derivation_param-INFO-HCBL011811241355056281,calls:{"start_time": "2018-09-10 12:12:32", "update_time": "2018-11-24 14:34:06", "use_time": 12, "subtotal": 0, "place": "\u897f\u5b89\u5e02", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb", "other_cell_phone": "13289287274", "cell_phone": "15202984598"}
+2018-11-27 16:59:24,368-engine.derivation_param-INFO-HCBL011811241355056281,通话记录307个
+2018-11-27 16:59:24,371-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 16:59:24,492-engine.derivation_param-INFO-HCBL011811241355056281,静默超过1天次数,silent_ge_1:68.0,静默超过2天次数,silent_ge_2:19.0
+2018-11-27 16:59:24,564-engine.derivation_param-INFO-HCBL011811241355056281,最近3个月被叫个数,month3_called:87.0,6个月的被叫个数,month6_called:202.0,比值:0.4306930693069307
+2018-11-27 16:59:24,564-engine.derivation_param-INFO-HCBL011811241355056281,最近1个月被叫个数,month1_called:33.0,3个月的被叫个数,month3_called:87.0,比值:0.3793103448275862
+2018-11-27 16:59:24,564-engine.derivation_param-INFO-HCBL011811241355056281,最近3个月被叫个数,month3_called_update:88.0,6个月的被叫个数,month6_called_update:202.0,比值:0.43564356435643564
+2018-11-27 16:59:24,565-engine.derivation_param-INFO-HCBL011811241355056281,最近1个月被叫个数,month1_called_update:38.0,3个月的被叫个数,month3_called_update:88.0,比值:0.4318181818181818
+2018-11-27 16:59:24,571-engine.derivation_param-INFO-HCBL011811241355056281,最近180天订单金额求和:[[53096.]]
+2018-11-27 16:59:24,597-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内30s内被叫次数,day7_called:2.0,3个月内30s内被叫次数,day90_called:48.0,比值:0.041666666666666664
+2018-11-27 16:59:24,623-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内30s内被叫次数,day7_called:4.0,3个月内30s内被叫次数,day90_called:48.0,比值:0.08333333333333333
+2018-11-27 16:59:24,649-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内20s内被叫次数,day7_called_20:2.0,3个月内20s内被叫次数,day90_called_20:35.0,比值:0.05714285714285714
+2018-11-27 16:59:24,686-engine.derivation_param-INFO-HCBL011811241355056281,一个月内5秒被叫次数:1.0,一个月内20秒被叫次数:16.0,三个月内5秒以内的通话次数:1.0
+2018-11-27 16:59:24,732-engine.derivation_param-INFO-HCBL011811241355056281,一个月内5秒被叫次数:1.0,一个月内20秒被叫次数:18.0,三个月内5秒以内的通话次数:1.0
+2018-11-27 16:59:24,844-engine.derivation_param-INFO-HCBL011811241355056281,最近30天1点到8点通话个数:1.0,最近30天8点到12点通话个数:21.0,最近7天22点到1点通话个数计数:10.0,最近30天22点到1点通话个数计数:10.0,最近7天8点到12点通话个数计数:2.0,最近30天通话个数计数与最近180天通话个数计数比值:0.21172638436482086,最近30天通话联系人:26
+2018-11-27 16:59:24,856-engine.derivation_param-INFO-HCBL011811241355056281,最近30天通话个数:57.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.017543859649122806
+2018-11-27 16:59:24,870-engine.derivation_param-INFO-HCBL011811241355056281,通话1分钟以下的电话数:97.0
+2018-11-27 16:59:24,958-engine.derivation_param-INFO-HCBL011811241355056281,三个月内10秒以内的被叫通话次数:9.0,三个月内5秒以内的被叫通话次数:1.0,三个月内20秒以内的主叫通话次数:11.0,一个星期内和一个月内60秒以内的被叫通话次数:0.2,一个星期内10秒以内的被叫通话次数:1.0
+2018-11-27 16:59:24,981-engine.derivation_param-INFO-HCBL011811241355056281,通话一次的手机号数量:79.0
+2018-11-27 16:59:24,993-engine.derivation_param-INFO-HCBL011811241355056281,历史平均联系人通话时长:321.0
+2018-11-27 16:59:25,079-engine.derivation_param-INFO-HCBL011811241355056281,通讯录手机号码占总数的比值:1.0
+2018-11-27 16:59:25,093-engine.derivation_param-INFO-HCBL011811241355056281,xinyang_data:{"fee": "N", "code": "1", "desc": "\u67e5\u8be2\u672a\u547d\u4e2d", "trans_id": "9F3FBAD0733B4793B61ACC85006AB6261543300937259", "trade_no": "20181127144217824000003975524521", "id_no": "fcdb12d5b90b30648ac76199cc7a2f81", "id_name": "4ecae1ff2293da1cf0b3d8925612b197", "versions": "1.4.0", "result_detail": null}
+2018-11-27 16:59:25,093-engine.derivation_param-INFO-param_generate:
+2018-11-27 16:59:25,126-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 752, in param_generate
+    comprehensive_score = score_card_xinyan_nods(model)
+  File "D:\xinyan\engine\ASC20181121_new_xinyan.py", line 146, in score_card_xinyan_nods
+    if model["dis_alltime_allpro_succpay_maxdis_cnt5"] =="-99998":
+KeyError: 'dis_alltime_allpro_succpay_maxdis_cnt5'
+
+2018-11-27 16:59:25,127-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 16:59:25,127-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-27 17:43:43,913-__main__-INFO-save HCBL011811241355056281 original data ...
+2018-11-27 17:43:43,914-engine.derivation_param-INFO-HCBL011811241355056281,花呗额度，huabei_totalcreditamount:900000.0
+2018-11-27 17:43:43,915-engine.derivation_param-INFO-HCBL011811241355056281,calls:获取成功
+2018-11-27 17:43:43,915-engine.derivation_param-INFO-HCBL011811241355056281,calls:{"start_time": "2018-09-10 12:12:32", "update_time": "2018-11-24 14:34:06", "use_time": 12, "subtotal": 0, "place": "\u897f\u5b89\u5e02", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb", "other_cell_phone": "13289287274", "cell_phone": "15202984598"}
+2018-11-27 17:43:43,915-engine.derivation_param-INFO-HCBL011811241355056281,通话记录307个
+2018-11-27 17:43:43,917-engine.derivation_param-INFO-HCBL011811241355056281,电商交易30个
+2018-11-27 17:43:44,022-engine.derivation_param-INFO-HCBL011811241355056281,静默超过1天次数,silent_ge_1:68.0,静默超过2天次数,silent_ge_2:19.0
+2018-11-27 17:43:44,092-engine.derivation_param-INFO-HCBL011811241355056281,最近3个月被叫个数,month3_called:87.0,6个月的被叫个数,month6_called:202.0,比值:0.4306930693069307
+2018-11-27 17:43:44,093-engine.derivation_param-INFO-HCBL011811241355056281,最近1个月被叫个数,month1_called:33.0,3个月的被叫个数,month3_called:87.0,比值:0.3793103448275862
+2018-11-27 17:43:44,093-engine.derivation_param-INFO-HCBL011811241355056281,最近3个月被叫个数,month3_called_update:88.0,6个月的被叫个数,month6_called_update:202.0,比值:0.43564356435643564
+2018-11-27 17:43:44,093-engine.derivation_param-INFO-HCBL011811241355056281,最近1个月被叫个数,month1_called_update:38.0,3个月的被叫个数,month3_called_update:88.0,比值:0.4318181818181818
+2018-11-27 17:43:44,100-engine.derivation_param-INFO-HCBL011811241355056281,最近180天订单金额求和:[[53096.]]
+2018-11-27 17:43:44,124-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内30s内被叫次数,day7_called:2.0,3个月内30s内被叫次数,day90_called:48.0,比值:0.041666666666666664
+2018-11-27 17:43:44,150-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内30s内被叫次数,day7_called:4.0,3个月内30s内被叫次数,day90_called:48.0,比值:0.08333333333333333
+2018-11-27 17:43:44,181-engine.derivation_param-INFO-HCBL011811241355056281,一个星期内20s内被叫次数,day7_called_20:2.0,3个月内20s内被叫次数,day90_called_20:35.0,比值:0.05714285714285714
+2018-11-27 17:43:44,227-engine.derivation_param-INFO-HCBL011811241355056281,一个月内5秒被叫次数:1.0,一个月内20秒被叫次数:16.0,三个月内5秒以内的通话次数:1.0
+2018-11-27 17:43:44,264-engine.derivation_param-INFO-HCBL011811241355056281,一个月内5秒被叫次数:1.0,一个月内20秒被叫次数:18.0,三个月内5秒以内的通话次数:1.0
+2018-11-27 17:43:44,360-engine.derivation_param-INFO-HCBL011811241355056281,最近30天1点到8点通话个数:1.0,最近30天8点到12点通话个数:21.0,最近7天22点到1点通话个数计数:10.0,最近30天22点到1点通话个数计数:10.0,最近7天8点到12点通话个数计数:2.0,最近30天通话个数计数与最近180天通话个数计数比值:0.21172638436482086,最近30天通话联系人:26
+2018-11-27 17:43:44,373-engine.derivation_param-INFO-HCBL011811241355056281,最近30天通话个数:57.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.017543859649122806
+2018-11-27 17:43:44,387-engine.derivation_param-INFO-HCBL011811241355056281,通话1分钟以下的电话数:97.0
+2018-11-27 17:43:44,470-engine.derivation_param-INFO-HCBL011811241355056281,三个月内10秒以内的被叫通话次数:9.0,三个月内5秒以内的被叫通话次数:1.0,三个月内20秒以内的主叫通话次数:11.0,一个星期内和一个月内60秒以内的被叫通话次数:0.2,一个星期内10秒以内的被叫通话次数:1.0
+2018-11-27 17:43:44,494-engine.derivation_param-INFO-HCBL011811241355056281,通话一次的手机号数量:79.0
+2018-11-27 17:43:44,506-engine.derivation_param-INFO-HCBL011811241355056281,历史平均联系人通话时长:321.0
+2018-11-27 17:43:44,597-engine.derivation_param-INFO-HCBL011811241355056281,通讯录手机号码占总数的比值:1.0
+2018-11-27 17:43:44,610-engine.derivation_param-INFO-param_generate:
+2018-11-27 17:43:44,611-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 743, in param_generate
+    values) if values else float(0)
+ValueError: could not convert string to float: 'N'
+
+2018-11-27 17:43:44,611-engine.derivation_param-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-27 17:43:44,612-__main__-INFO-HCBL011811241355056281 status is DENY...
+2018-11-28 15:41:32,465-__main__-INFO-param_generate:
+2018-11-28 15:41:32,479-__main__-INFO-Traceback (most recent call last):
+  File "D:/xinyan/engine/derivation_param.py", line 49, in param_generate
+    if text['data']['isAgain']==0:
+KeyError: 'isAgain'
+
+2018-11-28 15:41:32,479-__main__-INFO-HCBL011811241355056281,Get Model score:{"mode_type": "00", "userid": "9F3FBAD0733B4793B61ACC85006AB626", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811241355056281", "productCode": "TSD01"}
+2018-11-29 09:41:16,054-__main__-INFO-param_generate:
+2018-11-29 09:41:16,074-__main__-INFO-Traceback (most recent call last):
+  File "D:/xinyan/engine/derivation_param.py", line 55, in param_generate
+    userid = str(text['data']['userid'])  # 用户中心
+KeyError: 'userid'
+
+2018-11-29 09:46:26,173-__main__-INFO-HCBL011811260116538790,花呗额度，huabei_totalcreditamount:
+2018-11-29 09:46:26,178-__main__-INFO-HCBL011811260116538790,电商交易0个
+2018-11-29 09:46:26,473-__main__-INFO-HCBL011811260116538790,静默超过1天次数,silent_ge_1:37.0,静默超过2天次数,silent_ge_2:22.0
+2018-11-29 09:46:26,581-__main__-INFO-HCBL011811260116538790,最近3个月被叫个数,month3_called:0.0,6个月的被叫个数,month6_called:0.0,比值:
+2018-11-29 09:46:26,582-__main__-INFO-HCBL011811260116538790,最近1个月被叫个数,month1_called:0.0,3个月的被叫个数,month3_called:0.0,比值:
+2018-11-29 09:46:26,582-__main__-INFO-HCBL011811260116538790,最近3个月被叫个数,month3_called_update:0.0,6个月的被叫个数,month6_called_update:0.0,比值:
+2018-11-29 09:46:26,582-__main__-INFO-HCBL011811260116538790,最近1个月被叫个数,month1_called_update:0.0,3个月的被叫个数,month3_called_update:0.0,比值:
+2018-11-29 09:46:26,587-__main__-INFO-HCBL011811260116538790,最近180天订单金额求和:[[None]]
+2018-11-29 09:46:26,623-__main__-INFO-HCBL011811260116538790,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:46:26,659-__main__-INFO-HCBL011811260116538790,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:46:26,696-__main__-INFO-HCBL011811260116538790,一个星期内20s内被叫次数,day7_called_20:0.0,3个月内20s内被叫次数,day90_called_20:0.0,比值:
+2018-11-29 09:46:26,758-__main__-INFO-HCBL011811260116538790,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:4.0
+2018-11-29 09:46:26,804-__main__-INFO-HCBL011811260116538790,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:0.0
+2018-11-29 09:46:26,933-__main__-INFO-HCBL011811260116538790,最近30天1点到8点通话个数:4.0,最近30天8点到12点通话个数:33.0,最近7天22点到1点通话个数计数:70.0,最近30天22点到1点通话个数计数:67.0,最近7天8点到12点通话个数计数:0.0,最近30天通话个数计数与最近180天通话个数计数比值:,最近30天通话联系人:0
+2018-11-29 09:46:26,948-__main__-INFO-HCBL011811260116538790,最近30天通话个数:111.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.036036036036036036
+2018-11-29 09:46:26,962-__main__-INFO-HCBL011811260116538790,通话1分钟以下的电话数:147.0
+2018-11-29 09:46:27,050-__main__-INFO-HCBL011811260116538790,三个月内10秒以内的被叫通话次数:0.0,三个月内5秒以内的被叫通话次数:0.0,三个月内20秒以内的主叫通话次数:0.0,一个星期内和一个月内60秒以内的被叫通话次数:,一个星期内10秒以内的被叫通话次数:0.0
+2018-11-29 09:46:27,081-__main__-INFO-HCBL011811260116538790,通话一次的手机号数量:163.0
+2018-11-29 09:46:27,111-__main__-INFO-HCBL011811260116538790,历史平均联系人通话时长:267.0
+2018-11-29 09:46:27,260-__main__-INFO-HCBL011811260116538790,通讯录手机号码占总数的比值:0.9659574468085106
+2018-11-29 09:46:27,274-__main__-INFO-HCBL011811260116538790,score_card_recycle Model result
+2018-11-29 09:46:27,274-__main__-INFO-HCBL011811260116538790,Get Model score:{"desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "OK", "userid": "01", "loanOrderNo": "HCBL011811260116538790", "productCode": "TSD01", "mode_type": "06", "comprehensive_score": "535"},产品类型:TSD01
+2018-11-29 09:48:47,854-__main__-INFO-param_generate:
+2018-11-29 09:48:47,856-__main__-INFO-Traceback (most recent call last):
+  File "D:/xinyan/engine/derivation_param.py", line 55, in param_generate
+    userid = str(text['data']['userid'])  # 用户中心
+KeyError: 'userid'
+
+2018-11-29 09:50:03,004-__main__-INFO-HCBL011811260153434650,花呗额度，huabei_totalcreditamount:
+2018-11-29 09:50:03,014-__main__-INFO-HCBL011811260153434650,电商交易0个
+2018-11-29 09:50:03,183-__main__-INFO-HCBL011811260153434650,静默超过1天次数,silent_ge_1:12.0,静默超过2天次数,silent_ge_2:2.0
+2018-11-29 09:50:03,373-__main__-INFO-HCBL011811260153434650,最近3个月被叫个数,month3_called:0.0,6个月的被叫个数,month6_called:0.0,比值:
+2018-11-29 09:50:03,373-__main__-INFO-HCBL011811260153434650,最近1个月被叫个数,month1_called:0.0,3个月的被叫个数,month3_called:0.0,比值:
+2018-11-29 09:50:03,373-__main__-INFO-HCBL011811260153434650,最近3个月被叫个数,month3_called_update:0.0,6个月的被叫个数,month6_called_update:0.0,比值:
+2018-11-29 09:50:03,373-__main__-INFO-HCBL011811260153434650,最近1个月被叫个数,month1_called_update:0.0,3个月的被叫个数,month3_called_update:0.0,比值:
+2018-11-29 09:50:03,381-__main__-INFO-HCBL011811260153434650,最近180天订单金额求和:[[None]]
+2018-11-29 09:50:03,434-__main__-INFO-HCBL011811260153434650,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:50:03,485-__main__-INFO-HCBL011811260153434650,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:50:03,540-__main__-INFO-HCBL011811260153434650,一个星期内20s内被叫次数,day7_called_20:0.0,3个月内20s内被叫次数,day90_called_20:0.0,比值:
+2018-11-29 09:50:03,627-__main__-INFO-HCBL011811260153434650,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:43.0
+2018-11-29 09:50:03,704-__main__-INFO-HCBL011811260153434650,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:0.0
+2018-11-29 09:50:03,898-__main__-INFO-HCBL011811260153434650,最近30天1点到8点通话个数:1.0,最近30天8点到12点通话个数:260.0,最近7天22点到1点通话个数计数:16.0,最近30天22点到1点通话个数计数:15.0,最近7天8点到12点通话个数计数:0.0,最近30天通话个数计数与最近180天通话个数计数比值:,最近30天通话联系人:0
+2018-11-29 09:50:03,923-__main__-INFO-HCBL011811260153434650,最近30天通话个数:801.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.0012484394506866417
+2018-11-29 09:50:03,947-__main__-INFO-HCBL011811260153434650,通话1分钟以下的电话数:1320.0
+2018-11-29 09:50:04,083-__main__-INFO-HCBL011811260153434650,三个月内10秒以内的被叫通话次数:0.0,三个月内5秒以内的被叫通话次数:0.0,三个月内20秒以内的主叫通话次数:0.0,一个星期内和一个月内60秒以内的被叫通话次数:,一个星期内10秒以内的被叫通话次数:0.0
+2018-11-29 09:50:04,129-__main__-INFO-HCBL011811260153434650,通话一次的手机号数量:1289.0
+2018-11-29 09:50:04,154-__main__-INFO-HCBL011811260153434650,历史平均联系人通话时长:75.0
+2018-11-29 09:50:04,314-__main__-INFO-HCBL011811260153434650,通讯录手机号码占总数的比值:0.7813620071684588
+2018-11-29 09:50:04,341-__main__-INFO-HCBL011811260153434650,score_card_recycle Model result
+2018-11-29 09:50:04,341-__main__-INFO-HCBL011811260153434650,Get Model score:{"desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "OK", "userid": "5C17A8564735490F82EB6A88FF11A6C2", "loanOrderNo": "HCBL011811260153434650", "productCode": "TSD01", "mode_type": "06", "comprehensive_score": "618"},产品类型:TSD01
+2018-11-29 09:51:04,404-__main__-INFO-HCBL011811260036229710,花呗额度，huabei_totalcreditamount:
+2018-11-29 09:51:04,411-__main__-INFO-Traceback (most recent call last):
+  File "D:/xinyan/engine/derivation_param.py", line 140, in param_generate
+    'name': list(map(lambda x: x['name'], mail_list)), }
+  File "D:/xinyan/engine/derivation_param.py", line 140, in <lambda>
+    'name': list(map(lambda x: x['name'], mail_list)), }
+KeyError: 'name'
+
+2018-11-29 09:51:04,411-__main__-INFO-HCBL011811260036229710,电商交易0个
+2018-11-29 09:51:04,519-__main__-INFO-HCBL011811260036229710,静默超过1天次数,silent_ge_1:37.0,静默超过2天次数,silent_ge_2:18.0
+2018-11-29 09:51:04,611-__main__-INFO-HCBL011811260036229710,最近3个月被叫个数,month3_called:0.0,6个月的被叫个数,month6_called:0.0,比值:
+2018-11-29 09:51:04,611-__main__-INFO-HCBL011811260036229710,最近1个月被叫个数,month1_called:0.0,3个月的被叫个数,month3_called:0.0,比值:
+2018-11-29 09:51:04,611-__main__-INFO-HCBL011811260036229710,最近3个月被叫个数,month3_called_update:0.0,6个月的被叫个数,month6_called_update:0.0,比值:
+2018-11-29 09:51:04,611-__main__-INFO-HCBL011811260036229710,最近1个月被叫个数,month1_called_update:0.0,3个月的被叫个数,month3_called_update:0.0,比值:
+2018-11-29 09:51:04,619-__main__-INFO-HCBL011811260036229710,最近180天订单金额求和:[[None]]
+2018-11-29 09:51:04,665-__main__-INFO-HCBL011811260036229710,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:51:04,704-__main__-INFO-HCBL011811260036229710,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:51:04,737-__main__-INFO-HCBL011811260036229710,一个星期内20s内被叫次数,day7_called_20:0.0,3个月内20s内被叫次数,day90_called_20:0.0,比值:
+2018-11-29 09:51:04,781-__main__-INFO-HCBL011811260036229710,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:48.0
+2018-11-29 09:51:04,831-__main__-INFO-HCBL011811260036229710,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:0.0
+2018-11-29 09:51:04,992-__main__-INFO-HCBL011811260036229710,最近30天1点到8点通话个数:9.0,最近30天8点到12点通话个数:21.0,最近7天22点到1点通话个数计数:10.0,最近30天22点到1点通话个数计数:10.0,最近7天8点到12点通话个数计数:0.0,最近30天通话个数计数与最近180天通话个数计数比值:,最近30天通话联系人:0
+2018-11-29 09:51:05,009-__main__-INFO-HCBL011811260036229710,最近30天通话个数:113.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.07964601769911504
+2018-11-29 09:51:05,029-__main__-INFO-HCBL011811260036229710,通话1分钟以下的电话数:491.0
+2018-11-29 09:51:05,142-__main__-INFO-HCBL011811260036229710,三个月内10秒以内的被叫通话次数:0.0,三个月内5秒以内的被叫通话次数:0.0,三个月内20秒以内的主叫通话次数:0.0,一个星期内和一个月内60秒以内的被叫通话次数:,一个星期内10秒以内的被叫通话次数:0.0
+2018-11-29 09:51:05,176-__main__-INFO-HCBL011811260036229710,通话一次的手机号数量:468.0
+2018-11-29 09:51:05,192-__main__-INFO-HCBL011811260036229710,历史平均联系人通话时长:102.0
+2018-11-29 09:51:05,299-__main__-INFO-HCBL011811260036229710, 通讯录手机号码占总数的比值获取失败:
+2018-11-29 09:51:05,405-__main__-INFO-Traceback (most recent call last):
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\engine\default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: data4
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\xinyan\venv\lib\site-packages\pandasql\sqldf.py", line 61, in __call__
+    result = read_sql(query, conn)
+  File "D:\xinyan\venv\lib\site-packages\pandas\io\sql.py", line 397, in read_sql
+    chunksize=chunksize)
+  File "D:\xinyan\venv\lib\site-packages\pandas\io\sql.py", line 1063, in read_query
+    result = self.execute(*args)
+  File "D:\xinyan\venv\lib\site-packages\pandas\io\sql.py", line 954, in execute
+    return self.connectable.execute(*args, **kwargs)
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\engine\base.py", line 942, in execute
+    return self._execute_text(object, multiparams, params)
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1104, in _execute_text
+    statement, parameters
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1200, in _execute_context
+    context)
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1413, in _handle_dbapi_exception
+    exc_info
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\util\compat.py", line 265, in raise_from_cause
+    reraise(type(exception), exception, tb=exc_tb, cause=cause)
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\util\compat.py", line 248, in reraise
+    raise value.with_traceback(tb)
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\engine\base.py", line 1193, in _execute_context
+    context)
+  File "D:\xinyan\venv\lib\site-packages\sqlalchemy\engine\default.py", line 509, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: data4 [SQL: 'select count(distinct contact_phone) from data4 WHERE length(contact_phone)>=7;'] (Background on this error at: http://sqlalche.me/e/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:/xinyan/engine/derivation_param.py", line 629, in param_generate
+    sqldf("select count(distinct contact_phone) from data4 WHERE length(contact_phone)>=7;"))
+  File "D:\xinyan\venv\lib\site-packages\pandasql\sqldf.py", line 156, in sqldf
+    return PandaSQL(db_uri)(query, env)
+  File "D:\xinyan\venv\lib\site-packages\pandasql\sqldf.py", line 63, in __call__
+    raise PandaSQLException(ex)
+pandasql.sqldf.PandaSQLException: (sqlite3.OperationalError) no such table: data4 [SQL: 'select count(distinct contact_phone) from data4 WHERE length(contact_phone)>=7;'] (Background on this error at: http://sqlalche.me/e/e3q8)
+
+2018-11-29 09:51:05,405-__main__-INFO-HCBL011811260036229710,通讯录手机号码占总数的比值:
+2018-11-29 09:51:05,420-__main__-INFO-HCBL011811260036229710,score_card_recycle Model result
+2018-11-29 09:51:05,420-__main__-INFO-HCBL011811260036229710,Get Model score:{"desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "OK", "userid": "7632B6CAA5A6456B91F05EFB50212651", "loanOrderNo": "HCBL011811260036229710", "productCode": "TSD01", "mode_type": "06", "comprehensive_score": "517"},产品类型:TSD01
+2018-11-29 09:52:26,778-__main__-INFO-HCBL011811260019260830,花呗额度，huabei_totalcreditamount:
+2018-11-29 09:52:26,783-__main__-INFO-HCBL011811260019260830,电商交易0个
+2018-11-29 09:52:26,886-__main__-INFO-HCBL011811260019260830,静默超过1天次数,silent_ge_1:40.0,静默超过2天次数,silent_ge_2:13.0
+2018-11-29 09:52:26,998-__main__-INFO-HCBL011811260019260830,最近3个月被叫个数,month3_called:0.0,6个月的被叫个数,month6_called:0.0,比值:
+2018-11-29 09:52:26,998-__main__-INFO-HCBL011811260019260830,最近1个月被叫个数,month1_called:0.0,3个月的被叫个数,month3_called:0.0,比值:
+2018-11-29 09:52:26,998-__main__-INFO-HCBL011811260019260830,最近3个月被叫个数,month3_called_update:0.0,6个月的被叫个数,month6_called_update:0.0,比值:
+2018-11-29 09:52:26,998-__main__-INFO-HCBL011811260019260830,最近1个月被叫个数,month1_called_update:0.0,3个月的被叫个数,month3_called_update:0.0,比值:
+2018-11-29 09:52:27,004-__main__-INFO-HCBL011811260019260830,最近180天订单金额求和:[[None]]
+2018-11-29 09:52:27,053-__main__-INFO-HCBL011811260019260830,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:52:27,090-__main__-INFO-HCBL011811260019260830,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:52:27,126-__main__-INFO-HCBL011811260019260830,一个星期内20s内被叫次数,day7_called_20:0.0,3个月内20s内被叫次数,day90_called_20:0.0,比值:
+2018-11-29 09:52:27,195-__main__-INFO-HCBL011811260019260830,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:8.0
+2018-11-29 09:52:27,266-__main__-INFO-HCBL011811260019260830,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:0.0
+2018-11-29 09:52:27,460-__main__-INFO-HCBL011811260019260830,最近30天1点到8点通话个数:0.0,最近30天8点到12点通话个数:10.0,最近7天22点到1点通话个数计数:7.0,最近30天22点到1点通话个数计数:7.0,最近7天8点到12点通话个数计数:0.0,最近30天通话个数计数与最近180天通话个数计数比值:,最近30天通话联系人:0
+2018-11-29 09:52:27,480-__main__-INFO-HCBL011811260019260830,最近30天通话个数:119.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.0
+2018-11-29 09:52:27,519-__main__-INFO-HCBL011811260019260830,通话1分钟以下的电话数:649.0
+2018-11-29 09:52:27,659-__main__-INFO-HCBL011811260019260830,三个月内10秒以内的被叫通话次数:0.0,三个月内5秒以内的被叫通话次数:0.0,三个月内20秒以内的主叫通话次数:0.0,一个星期内和一个月内60秒以内的被叫通话次数:,一个星期内10秒以内的被叫通话次数:0.0
+2018-11-29 09:52:27,714-__main__-INFO-HCBL011811260019260830,通话一次的手机号数量:657.0
+2018-11-29 09:52:27,736-__main__-INFO-HCBL011811260019260830,历史平均联系人通话时长:54.0
+2018-11-29 09:52:27,877-__main__-INFO-HCBL011811260019260830,通讯录手机号码占总数的比值:1.0357142857142858
+2018-11-29 09:52:27,898-__main__-INFO-HCBL011811260019260830,score_card_recycle Model result
+2018-11-29 09:52:27,899-__main__-INFO-HCBL011811260019260830,Get Model score:{"desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "OK", "userid": "26B15AB862AE47678673DED599D4833D", "loanOrderNo": "HCBL011811260019260830", "productCode": "TSD01", "mode_type": "06", "comprehensive_score": "488"},产品类型:TSD01
+2018-11-29 09:53:17,810-__main__-INFO-HCBL011811260001327820,花呗额度，huabei_totalcreditamount:
+2018-11-29 09:53:17,817-__main__-INFO-HCBL011811260001327820,电商交易0个
+2018-11-29 09:53:18,018-__main__-INFO-HCBL011811260001327820,静默超过1天次数,silent_ge_1:31.0,静默超过2天次数,silent_ge_2:8.0
+2018-11-29 09:53:18,107-__main__-INFO-HCBL011811260001327820,最近3个月被叫个数,month3_called:0.0,6个月的被叫个数,month6_called:0.0,比值:
+2018-11-29 09:53:18,107-__main__-INFO-HCBL011811260001327820,最近1个月被叫个数,month1_called:0.0,3个月的被叫个数,month3_called:0.0,比值:
+2018-11-29 09:53:18,107-__main__-INFO-HCBL011811260001327820,最近3个月被叫个数,month3_called_update:0.0,6个月的被叫个数,month6_called_update:0.0,比值:
+2018-11-29 09:53:18,107-__main__-INFO-HCBL011811260001327820,最近1个月被叫个数,month1_called_update:0.0,3个月的被叫个数,month3_called_update:0.0,比值:
+2018-11-29 09:53:18,113-__main__-INFO-HCBL011811260001327820,最近180天订单金额求和:[[None]]
+2018-11-29 09:53:18,143-__main__-INFO-HCBL011811260001327820,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:53:18,173-__main__-INFO-HCBL011811260001327820,一个星期内30s内被叫次数,day7_called:0.0,3个月内30s内被叫次数,day90_called:0.0,比值:
+2018-11-29 09:53:18,205-__main__-INFO-HCBL011811260001327820,一个星期内20s内被叫次数,day7_called_20:0.0,3个月内20s内被叫次数,day90_called_20:0.0,比值:
+2018-11-29 09:53:18,251-__main__-INFO-HCBL011811260001327820,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:56.0
+2018-11-29 09:53:18,302-__main__-INFO-HCBL011811260001327820,一个月内5秒被叫次数:0.0,一个月内20秒被叫次数:0.0,三个月内5秒以内的通话次数:0.0
+2018-11-29 09:53:18,449-__main__-INFO-HCBL011811260001327820,最近30天1点到8点通话个数:7.0,最近30天8点到12点通话个数:53.0,最近7天22点到1点通话个数计数:54.0,最近30天22点到1点通话个数计数:54.0,最近7天8点到12点通话个数计数:0.0,最近30天通话个数计数与最近180天通话个数计数比值:,最近30天通话联系人:0
+2018-11-29 09:53:18,470-__main__-INFO-HCBL011811260001327820,最近30天通话个数:417.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.016786570743405275
+2018-11-29 09:53:18,485-__main__-INFO-HCBL011811260001327820,通话1分钟以下的电话数:472.0
+2018-11-29 09:53:18,592-__main__-INFO-HCBL011811260001327820,三个月内10秒以内的被叫通话次数:0.0,三个月内5秒以内的被叫通话次数:0.0,三个月内20秒以内的主叫通话次数:0.0,一个星期内和一个月内60秒以内的被叫通话次数:,一个星期内10秒以内的被叫通话次数:0.0
+2018-11-29 09:53:18,627-__main__-INFO-HCBL011811260001327820,通话一次的手机号数量:448.0
+2018-11-29 09:53:18,644-__main__-INFO-HCBL011811260001327820,历史平均联系人通话时长:202.0
+2018-11-29 09:53:18,754-__main__-INFO-HCBL011811260001327820,通讯录手机号码占总数的比值:1.0
+2018-11-29 09:53:18,777-__main__-INFO-HCBL011811260001327820,score_card_recycle Model result
+2018-11-29 09:53:18,777-__main__-INFO-HCBL011811260001327820,Get Model score:{"desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "OK", "userid": "2AF1F80E7E084D5ABBB6CC8A4461EC7B", "loanOrderNo": "HCBL011811260001327820", "productCode": "TSD01", "mode_type": "06", "comprehensive_score": "536"},产品类型:TSD01

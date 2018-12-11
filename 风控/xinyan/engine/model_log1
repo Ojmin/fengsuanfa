@@ -1,0 +1,204 @@
+2018-11-30 10:50:02,336-engine.derivation_param-INFO-param_generate:
+2018-11-30 10:50:02,371-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 57, in param_generate
+    appId = str(text['appId'])
+TypeError: 'NoneType' object is not subscriptable
+
+2018-11-30 10:52:52,307-engine.derivation_param-INFO-HCBL011811300905285130,花呗额度，huabei_totalcreditamount:{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}
+2018-11-30 10:52:52,334-engine.derivation_param-INFO-HCBL011811300905285130,calls:获取成功
+2018-11-30 10:52:52,344-engine.derivation_param-INFO-HCBL011811300905285130,calls:{"start_time": "2018-11-16 10:42:39", "update_time": "2018-11-29 17:46:38", "use_time": 21, "subtotal": 0.0, "place": "\u6d77\u53e3", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb-VOLTE\u8bed\u97f3", "other_cell_phone": "055162146647", "cell_phone": "13976636286"}
+2018-11-30 10:52:52,347-engine.derivation_param-INFO-HCBL011811300905285130,通话记录2807个
+2018-11-30 10:52:52,469-engine.derivation_param-INFO-HCBL011811300905285130,电商交易92个
+2018-11-30 10:52:52,880-engine.derivation_param-INFO-HCBL011811300905285130,静默超过1天次数,silent_ge_1:1.0,静默超过2天次数,silent_ge_2:0.0
+2018-11-30 10:52:53,116-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called:780.0,6个月的被叫个数,month6_called:1896.0,比值:0.41139240506329117
+2018-11-30 10:52:53,116-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called:250.0,3个月的被叫个数,month3_called:780.0,比值:0.32051282051282054
+2018-11-30 10:52:53,116-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called_update:787.0,6个月的被叫个数,month6_called_update:1904.0,比值:0.41334033613445376
+2018-11-30 10:52:53,116-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called_update:252.0,3个月的被叫个数,month3_called_update:787.0,比值:0.3202033036848793
+2018-11-30 10:52:53,138-engine.derivation_param-INFO-HCBL011811300905285130,最近180天订单金额求和:[[45190.]]
+2018-11-30 10:52:53,199-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:351.0,比值:0.07692307692307693
+2018-11-30 10:52:53,259-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:352.0,比值:0.07670454545454546
+2018-11-30 10:52:53,320-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内20s内被叫次数,day7_called_20:17.0,3个月内20s内被叫次数,day90_called_20:228.0,比值:0.07456140350877193
+2018-11-30 10:52:53,414-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 10:52:53,512-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 10:52:53,763-engine.derivation_param-INFO-HCBL011811300905285130,最近30天1点到8点通话个数:30.0,最近30天8点到12点通话个数:132.0,最近7天22点到1点通话个数计数:119.0,最近30天22点到1点通话个数计数:120.0,最近7天8点到12点通话个数计数:35.0,最近30天通话个数计数与最近180天通话个数计数比值:0.16063675832127353,最近30天通话联系人:118
+2018-11-30 10:52:53,814-engine.derivation_param-INFO-HCBL011811300905285130,最近30天通话个数:442.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.06787330316742081
+2018-11-30 10:52:53,858-engine.derivation_param-INFO-HCBL011811300905285130,通话1分钟以下的电话数:456.0
+2018-11-30 10:52:54,094-engine.derivation_param-INFO-HCBL011811300905285130,三个月内10秒以内的被叫通话次数:81.0,三个月内5秒以内的被叫通话次数:20.0,三个月内20秒以内的主叫通话次数:104.0,一个星期内和一个月内60秒以内的被叫通话次数:0.27325581395348836,一个星期内10秒以内的被叫通话次数:9.0
+2018-11-30 10:52:54,168-engine.derivation_param-INFO-HCBL011811300905285130,通话一次的手机号数量:401.0
+2018-11-30 10:52:54,197-engine.derivation_param-INFO-HCBL011811300905285130,历史平均联系人通话时长:271.0
+2018-11-30 10:52:54,387-engine.derivation_param-INFO-HCBL011811300905285130,通讯录手机号码占总数的比值:
+2018-11-30 10:52:54,424-engine.derivation_param-INFO-HCBL011811300905285130,pid===1
+2018-11-30 10:52:54,425-engine.derivation_param-INFO-param_generate:
+2018-11-30 10:52:54,441-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 792, in param_generate
+    comprehensive_score = score_card_2(model)
+  File "D:\xinyan\engine\ASC20180512003002.py", line 133, in score_card_2
+    if float(model["huabei_totalcreditamount"]) >= 789:
+ValueError: could not convert string to float: "{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}"
+
+2018-11-30 10:52:54,441-engine.derivation_param-INFO-HCBL011811300905285130,Get Model score:{"mode_type": "00", "userid": "0E0CA0C2593F4905B8E59ADA8A2BFBA8", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811300905285130", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-30 10:55:08,638-engine.derivation_param-INFO-HCBL011811300905285130,花呗额度，huabei_totalcreditamount:{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}
+2018-11-30 10:55:08,639-engine.derivation_param-INFO-HCBL011811300905285130,calls:获取成功
+2018-11-30 10:55:08,639-engine.derivation_param-INFO-HCBL011811300905285130,calls:{"start_time": "2018-11-16 10:42:39", "update_time": "2018-11-29 17:46:38", "use_time": 21, "subtotal": 0.0, "place": "\u6d77\u53e3", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb-VOLTE\u8bed\u97f3", "other_cell_phone": "055162146647", "cell_phone": "13976636286"}
+2018-11-30 10:55:08,641-engine.derivation_param-INFO-HCBL011811300905285130,通话记录2807个
+2018-11-30 10:55:08,645-engine.derivation_param-INFO-HCBL011811300905285130,电商交易92个
+2018-11-30 10:55:08,847-engine.derivation_param-INFO-HCBL011811300905285130,静默超过1天次数,silent_ge_1:1.0,静默超过2天次数,silent_ge_2:0.0
+2018-11-30 10:55:09,058-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called:780.0,6个月的被叫个数,month6_called:1896.0,比值:0.41139240506329117
+2018-11-30 10:55:09,058-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called:250.0,3个月的被叫个数,month3_called:780.0,比值:0.32051282051282054
+2018-11-30 10:55:09,058-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called_update:787.0,6个月的被叫个数,month6_called_update:1904.0,比值:0.41334033613445376
+2018-11-30 10:55:09,058-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called_update:252.0,3个月的被叫个数,month3_called_update:787.0,比值:0.3202033036848793
+2018-11-30 10:55:09,066-engine.derivation_param-INFO-HCBL011811300905285130,最近180天订单金额求和:[[45190.]]
+2018-11-30 10:55:09,130-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:351.0,比值:0.07692307692307693
+2018-11-30 10:55:09,187-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:352.0,比值:0.07670454545454546
+2018-11-30 10:55:09,246-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内20s内被叫次数,day7_called_20:17.0,3个月内20s内被叫次数,day90_called_20:228.0,比值:0.07456140350877193
+2018-11-30 10:55:09,343-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 10:55:09,478-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 10:55:09,730-engine.derivation_param-INFO-HCBL011811300905285130,最近30天1点到8点通话个数:30.0,最近30天8点到12点通话个数:132.0,最近7天22点到1点通话个数计数:119.0,最近30天22点到1点通话个数计数:120.0,最近7天8点到12点通话个数计数:35.0,最近30天通话个数计数与最近180天通话个数计数比值:0.16063675832127353,最近30天通话联系人:118
+2018-11-30 10:55:09,768-engine.derivation_param-INFO-HCBL011811300905285130,最近30天通话个数:442.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.06787330316742081
+2018-11-30 10:55:09,797-engine.derivation_param-INFO-HCBL011811300905285130,通话1分钟以下的电话数:456.0
+2018-11-30 10:55:09,986-engine.derivation_param-INFO-HCBL011811300905285130,三个月内10秒以内的被叫通话次数:81.0,三个月内5秒以内的被叫通话次数:20.0,三个月内20秒以内的主叫通话次数:104.0,一个星期内和一个月内60秒以内的被叫通话次数:0.27325581395348836,一个星期内10秒以内的被叫通话次数:9.0
+2018-11-30 10:55:10,049-engine.derivation_param-INFO-HCBL011811300905285130,通话一次的手机号数量:401.0
+2018-11-30 10:55:10,079-engine.derivation_param-INFO-HCBL011811300905285130,历史平均联系人通话时长:271.0
+2018-11-30 10:55:10,276-engine.derivation_param-INFO-HCBL011811300905285130,通讯录手机号码占总数的比值:
+2018-11-30 10:55:10,304-engine.derivation_param-INFO-HCBL011811300905285130,pid===0
+2018-11-30 10:55:10,304-engine.derivation_param-INFO-param_generate:
+2018-11-30 10:55:10,332-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 788, in param_generate
+    comprehensive_score = score_card(model)
+  File "D:\xinyan\engine\ASC20180512003001.py", line 159, in score_card
+    if float(model["huabei_totalcreditamount"]) >= 3783.38:
+ValueError: could not convert string to float: "{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}"
+
+2018-11-30 10:55:10,332-engine.derivation_param-INFO-HCBL011811300905285130,Get Model score:{"mode_type": "00", "userid": "0E0CA0C2593F4905B8E59ADA8A2BFBA8", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811300905285130", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-30 10:55:38,491-engine.derivation_param-INFO-HCBL011811300905285130,花呗额度，huabei_totalcreditamount:{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}
+2018-11-30 10:55:38,491-engine.derivation_param-INFO-HCBL011811300905285130,calls:获取成功
+2018-11-30 10:55:38,491-engine.derivation_param-INFO-HCBL011811300905285130,calls:{"start_time": "2018-11-16 10:42:39", "update_time": "2018-11-29 17:46:38", "use_time": 21, "subtotal": 0.0, "place": "\u6d77\u53e3", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb-VOLTE\u8bed\u97f3", "other_cell_phone": "055162146647", "cell_phone": "13976636286"}
+2018-11-30 10:55:38,494-engine.derivation_param-INFO-HCBL011811300905285130,通话记录2807个
+2018-11-30 10:55:38,497-engine.derivation_param-INFO-HCBL011811300905285130,电商交易92个
+2018-11-30 10:55:38,718-engine.derivation_param-INFO-HCBL011811300905285130,静默超过1天次数,silent_ge_1:1.0,静默超过2天次数,silent_ge_2:0.0
+2018-11-30 10:55:38,955-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called:780.0,6个月的被叫个数,month6_called:1896.0,比值:0.41139240506329117
+2018-11-30 10:55:38,955-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called:250.0,3个月的被叫个数,month3_called:780.0,比值:0.32051282051282054
+2018-11-30 10:55:38,955-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called_update:787.0,6个月的被叫个数,month6_called_update:1904.0,比值:0.41334033613445376
+2018-11-30 10:55:38,955-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called_update:252.0,3个月的被叫个数,month3_called_update:787.0,比值:0.3202033036848793
+2018-11-30 10:55:38,962-engine.derivation_param-INFO-HCBL011811300905285130,最近180天订单金额求和:[[45190.]]
+2018-11-30 10:55:39,028-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:351.0,比值:0.07692307692307693
+2018-11-30 10:55:39,095-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:352.0,比值:0.07670454545454546
+2018-11-30 10:55:39,206-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内20s内被叫次数,day7_called_20:17.0,3个月内20s内被叫次数,day90_called_20:228.0,比值:0.07456140350877193
+2018-11-30 10:55:39,295-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 10:55:39,390-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 10:55:39,624-engine.derivation_param-INFO-HCBL011811300905285130,最近30天1点到8点通话个数:30.0,最近30天8点到12点通话个数:132.0,最近7天22点到1点通话个数计数:119.0,最近30天22点到1点通话个数计数:120.0,最近7天8点到12点通话个数计数:35.0,最近30天通话个数计数与最近180天通话个数计数比值:0.16063675832127353,最近30天通话联系人:118
+2018-11-30 10:55:39,653-engine.derivation_param-INFO-HCBL011811300905285130,最近30天通话个数:442.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.06787330316742081
+2018-11-30 10:55:39,682-engine.derivation_param-INFO-HCBL011811300905285130,通话1分钟以下的电话数:456.0
+2018-11-30 10:55:39,869-engine.derivation_param-INFO-HCBL011811300905285130,三个月内10秒以内的被叫通话次数:81.0,三个月内5秒以内的被叫通话次数:20.0,三个月内20秒以内的主叫通话次数:104.0,一个星期内和一个月内60秒以内的被叫通话次数:0.27325581395348836,一个星期内10秒以内的被叫通话次数:9.0
+2018-11-30 10:55:39,928-engine.derivation_param-INFO-HCBL011811300905285130,通话一次的手机号数量:401.0
+2018-11-30 10:55:39,960-engine.derivation_param-INFO-HCBL011811300905285130,历史平均联系人通话时长:271.0
+2018-11-30 10:55:40,163-engine.derivation_param-INFO-HCBL011811300905285130,通讯录手机号码占总数的比值:
+2018-11-30 10:55:40,194-engine.derivation_param-INFO-HCBL011811300905285130,pid===0
+2018-11-30 10:55:40,194-engine.derivation_param-INFO-param_generate:
+2018-11-30 10:55:40,194-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 788, in param_generate
+    comprehensive_score = score_card(model)
+  File "D:\xinyan\engine\ASC20180512003001.py", line 159, in score_card
+    if float(model["huabei_totalcreditamount"]) >= 3783.38:
+ValueError: could not convert string to float: "{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}"
+
+2018-11-30 10:55:40,194-engine.derivation_param-INFO-HCBL011811300905285130,Get Model score:{"mode_type": "00", "userid": "0E0CA0C2593F4905B8E59ADA8A2BFBA8", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811300905285130", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-30 11:00:02,349-engine.derivation_param-INFO-HCBL011811300905285130,花呗额度，huabei_totalcreditamount:{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}
+2018-11-30 11:00:02,349-engine.derivation_param-INFO-HCBL011811300905285130,calls:获取成功
+2018-11-30 11:00:02,349-engine.derivation_param-INFO-HCBL011811300905285130,calls:{"start_time": "2018-11-16 10:42:39", "update_time": "2018-11-29 17:46:38", "use_time": 21, "subtotal": 0.0, "place": "\u6d77\u53e3", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb-VOLTE\u8bed\u97f3", "other_cell_phone": "055162146647", "cell_phone": "13976636286"}
+2018-11-30 11:00:02,351-engine.derivation_param-INFO-HCBL011811300905285130,通话记录2807个
+2018-11-30 11:00:02,355-engine.derivation_param-INFO-HCBL011811300905285130,电商交易92个
+2018-11-30 11:00:02,568-engine.derivation_param-INFO-HCBL011811300905285130,静默超过1天次数,silent_ge_1:1.0,静默超过2天次数,silent_ge_2:0.0
+2018-11-30 11:00:02,789-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called:780.0,6个月的被叫个数,month6_called:1896.0,比值:0.41139240506329117
+2018-11-30 11:00:02,789-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called:250.0,3个月的被叫个数,month3_called:780.0,比值:0.32051282051282054
+2018-11-30 11:00:02,789-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called_update:787.0,6个月的被叫个数,month6_called_update:1904.0,比值:0.41334033613445376
+2018-11-30 11:00:02,789-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called_update:252.0,3个月的被叫个数,month3_called_update:787.0,比值:0.3202033036848793
+2018-11-30 11:00:02,796-engine.derivation_param-INFO-HCBL011811300905285130,最近180天订单金额求和:[[45190.]]
+2018-11-30 11:00:02,865-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:351.0,比值:0.07692307692307693
+2018-11-30 11:00:02,926-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:352.0,比值:0.07670454545454546
+2018-11-30 11:00:02,997-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内20s内被叫次数,day7_called_20:17.0,3个月内20s内被叫次数,day90_called_20:228.0,比值:0.07456140350877193
+2018-11-30 11:00:03,087-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 11:00:03,187-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 11:00:03,411-engine.derivation_param-INFO-HCBL011811300905285130,最近30天1点到8点通话个数:30.0,最近30天8点到12点通话个数:132.0,最近7天22点到1点通话个数计数:119.0,最近30天22点到1点通话个数计数:120.0,最近7天8点到12点通话个数计数:35.0,最近30天通话个数计数与最近180天通话个数计数比值:0.16063675832127353,最近30天通话联系人:118
+2018-11-30 11:00:03,440-engine.derivation_param-INFO-HCBL011811300905285130,最近30天通话个数:442.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.06787330316742081
+2018-11-30 11:00:03,468-engine.derivation_param-INFO-HCBL011811300905285130,通话1分钟以下的电话数:456.0
+2018-11-30 11:00:03,655-engine.derivation_param-INFO-HCBL011811300905285130,三个月内10秒以内的被叫通话次数:81.0,三个月内5秒以内的被叫通话次数:20.0,三个月内20秒以内的主叫通话次数:104.0,一个星期内和一个月内60秒以内的被叫通话次数:0.27325581395348836,一个星期内10秒以内的被叫通话次数:9.0
+2018-11-30 11:00:03,713-engine.derivation_param-INFO-HCBL011811300905285130,通话一次的手机号数量:401.0
+2018-11-30 11:00:03,740-engine.derivation_param-INFO-HCBL011811300905285130,历史平均联系人通话时长:271.0
+2018-11-30 11:00:03,928-engine.derivation_param-INFO-HCBL011811300905285130,通讯录手机号码占总数的比值:
+2018-11-30 11:00:03,958-engine.derivation_param-INFO-HCBL011811300905285130,pid===1
+2018-11-30 11:00:03,958-engine.derivation_param-INFO-param_generate:
+2018-11-30 11:00:03,958-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 792, in param_generate
+    comprehensive_score = score_card_2(model)
+  File "D:\xinyan\engine\ASC20180512003002.py", line 133, in score_card_2
+    if float(model["huabei_totalcreditamount"]) >= 789:
+ValueError: could not convert string to float: "{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}"
+
+2018-11-30 11:00:03,958-engine.derivation_param-INFO-HCBL011811300905285130,Get Model score:{"mode_type": "00", "userid": "0E0CA0C2593F4905B8E59ADA8A2BFBA8", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811300905285130", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-30 11:05:23,238-engine.derivation_param-INFO-HCBL011811300905285130,花呗额度，huabei_totalcreditamount:{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}
+2018-11-30 11:05:23,238-engine.derivation_param-INFO-HCBL011811300905285130,calls:获取成功
+2018-11-30 11:05:23,238-engine.derivation_param-INFO-HCBL011811300905285130,calls:{"start_time": "2018-11-16 10:42:39", "update_time": "2018-11-29 17:46:38", "use_time": 21, "subtotal": 0.0, "place": "\u6d77\u53e3", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb-VOLTE\u8bed\u97f3", "other_cell_phone": "055162146647", "cell_phone": "13976636286"}
+2018-11-30 11:05:23,240-engine.derivation_param-INFO-HCBL011811300905285130,通话记录2807个
+2018-11-30 11:05:23,246-engine.derivation_param-INFO-HCBL011811300905285130,电商交易92个
+2018-11-30 11:05:23,434-engine.derivation_param-INFO-HCBL011811300905285130,静默超过1天次数,silent_ge_1:1.0,静默超过2天次数,silent_ge_2:0.0
+2018-11-30 11:05:23,643-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called:780.0,6个月的被叫个数,month6_called:1896.0,比值:0.41139240506329117
+2018-11-30 11:05:23,644-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called:250.0,3个月的被叫个数,month3_called:780.0,比值:0.32051282051282054
+2018-11-30 11:05:23,644-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called_update:787.0,6个月的被叫个数,month6_called_update:1904.0,比值:0.41334033613445376
+2018-11-30 11:05:23,644-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called_update:252.0,3个月的被叫个数,month3_called_update:787.0,比值:0.3202033036848793
+2018-11-30 11:05:23,651-engine.derivation_param-INFO-HCBL011811300905285130,最近180天订单金额求和:[[45190.]]
+2018-11-30 11:05:23,716-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:351.0,比值:0.07692307692307693
+2018-11-30 11:05:23,798-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:352.0,比值:0.07670454545454546
+2018-11-30 11:05:23,864-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内20s内被叫次数,day7_called_20:17.0,3个月内20s内被叫次数,day90_called_20:228.0,比值:0.07456140350877193
+2018-11-30 11:05:23,953-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 11:05:24,051-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 11:05:24,275-engine.derivation_param-INFO-HCBL011811300905285130,最近30天1点到8点通话个数:30.0,最近30天8点到12点通话个数:132.0,最近7天22点到1点通话个数计数:119.0,最近30天22点到1点通话个数计数:120.0,最近7天8点到12点通话个数计数:35.0,最近30天通话个数计数与最近180天通话个数计数比值:0.16063675832127353,最近30天通话联系人:118
+2018-11-30 11:05:24,304-engine.derivation_param-INFO-HCBL011811300905285130,最近30天通话个数:442.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.06787330316742081
+2018-11-30 11:05:24,338-engine.derivation_param-INFO-HCBL011811300905285130,通话1分钟以下的电话数:456.0
+2018-11-30 11:05:24,519-engine.derivation_param-INFO-HCBL011811300905285130,三个月内10秒以内的被叫通话次数:81.0,三个月内5秒以内的被叫通话次数:20.0,三个月内20秒以内的主叫通话次数:104.0,一个星期内和一个月内60秒以内的被叫通话次数:0.27325581395348836,一个星期内10秒以内的被叫通话次数:9.0
+2018-11-30 11:05:24,573-engine.derivation_param-INFO-HCBL011811300905285130,通话一次的手机号数量:401.0
+2018-11-30 11:05:24,602-engine.derivation_param-INFO-HCBL011811300905285130,历史平均联系人通话时长:271.0
+2018-11-30 11:05:24,794-engine.derivation_param-INFO-HCBL011811300905285130,通讯录手机号码占总数的比值:
+2018-11-30 11:05:24,829-engine.derivation_param-INFO-HCBL011811300905285130,pid===1
+2018-11-30 11:05:24,829-engine.derivation_param-INFO-param_generate:
+2018-11-30 11:05:24,830-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 792, in param_generate
+    comprehensive_score = score_card_2(model)
+  File "D:\xinyan\engine\ASC20180512003002.py", line 133, in score_card_2
+    if float(model["huabei_totalcreditamount"]) >= 789:
+ValueError: could not convert string to float: "{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}"
+
+2018-11-30 11:05:24,831-engine.derivation_param-INFO-HCBL011811300905285130,Get Model score:{"mode_type": "00", "userid": "0E0CA0C2593F4905B8E59ADA8A2BFBA8", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811300905285130", "productCode": "DFA4559127F811E889CE00163E2E2668"}
+2018-11-30 12:46:53,512-engine.derivation_param-INFO-HCBL011811300905285130,花呗额度，huabei_totalcreditamount:{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}
+2018-11-30 12:46:53,535-engine.derivation_param-INFO-HCBL011811300905285130,calls:获取成功
+2018-11-30 12:46:53,535-engine.derivation_param-INFO-HCBL011811300905285130,calls:{"start_time": "2018-11-16 10:42:39", "update_time": "2018-11-29 17:46:38", "use_time": 21, "subtotal": 0.0, "place": "\u6d77\u53e3", "init_type": "\u88ab\u53eb", "call_type": "\u56fd\u5185\u88ab\u53eb-VOLTE\u8bed\u97f3", "other_cell_phone": "055162146647", "cell_phone": "13976636286"}
+2018-11-30 12:46:53,538-engine.derivation_param-INFO-HCBL011811300905285130,通话记录2807个
+2018-11-30 12:46:53,546-engine.derivation_param-INFO-HCBL011811300905285130,电商交易92个
+2018-11-30 12:46:53,828-engine.derivation_param-INFO-HCBL011811300905285130,静默超过1天次数,silent_ge_1:1.0,静默超过2天次数,silent_ge_2:0.0
+2018-11-30 12:46:54,016-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called:780.0,6个月的被叫个数,month6_called:1896.0,比值:0.41139240506329117
+2018-11-30 12:46:54,017-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called:250.0,3个月的被叫个数,month3_called:780.0,比值:0.32051282051282054
+2018-11-30 12:46:54,017-engine.derivation_param-INFO-HCBL011811300905285130,最近3个月被叫个数,month3_called_update:787.0,6个月的被叫个数,month6_called_update:1904.0,比值:0.41334033613445376
+2018-11-30 12:46:54,017-engine.derivation_param-INFO-HCBL011811300905285130,最近1个月被叫个数,month1_called_update:252.0,3个月的被叫个数,month3_called_update:787.0,比值:0.3202033036848793
+2018-11-30 12:46:54,024-engine.derivation_param-INFO-HCBL011811300905285130,最近180天订单金额求和:[[45190.]]
+2018-11-30 12:46:54,097-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:351.0,比值:0.07692307692307693
+2018-11-30 12:46:54,163-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内30s内被叫次数,day7_called:27.0,3个月内30s内被叫次数,day90_called:352.0,比值:0.07670454545454546
+2018-11-30 12:46:54,228-engine.derivation_param-INFO-HCBL011811300905285130,一个星期内20s内被叫次数,day7_called_20:17.0,3个月内20s内被叫次数,day90_called_20:228.0,比值:0.07456140350877193
+2018-11-30 12:46:54,326-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 12:46:54,438-engine.derivation_param-INFO-HCBL011811300905285130,一个月内5秒被叫次数:7.0,一个月内20秒被叫次数:66.0,三个月内5秒以内的通话次数:23.0
+2018-11-30 12:46:54,761-engine.derivation_param-INFO-HCBL011811300905285130,最近30天1点到8点通话个数:30.0,最近30天8点到12点通话个数:132.0,最近7天22点到1点通话个数计数:119.0,最近30天22点到1点通话个数计数:120.0,最近7天8点到12点通话个数计数:35.0,最近30天通话个数计数与最近180天通话个数计数比值:0.16063675832127353,最近30天通话联系人:118
+2018-11-30 12:46:54,803-engine.derivation_param-INFO-HCBL011811300905285130,最近30天通话个数:442.0,近30天1点到8点通话个数计数与最近30天通话个数计数比值:0.06787330316742081
+2018-11-30 12:46:54,842-engine.derivation_param-INFO-HCBL011811300905285130,通话1分钟以下的电话数:456.0
+2018-11-30 12:46:55,063-engine.derivation_param-INFO-HCBL011811300905285130,三个月内10秒以内的被叫通话次数:81.0,三个月内5秒以内的被叫通话次数:20.0,三个月内20秒以内的主叫通话次数:104.0,一个星期内和一个月内60秒以内的被叫通话次数:0.27325581395348836,一个星期内10秒以内的被叫通话次数:9.0
+2018-11-30 12:46:55,127-engine.derivation_param-INFO-HCBL011811300905285130,通话一次的手机号数量:401.0
+2018-11-30 12:46:55,159-engine.derivation_param-INFO-HCBL011811300905285130,历史平均联系人通话时长:271.0
+2018-11-30 12:46:55,341-engine.derivation_param-INFO-HCBL011811300905285130,通讯录手机号码占总数的比值:
+2018-11-30 12:46:55,369-engine.derivation_param-INFO-HCBL011811300905285130,pid===1
+2018-11-30 12:46:55,369-engine.derivation_param-INFO-param_generate:
+2018-11-30 12:46:55,396-engine.derivation_param-INFO-Traceback (most recent call last):
+  File "D:\xinyan\engine\derivation_param.py", line 792, in param_generate
+    comprehensive_score = score_card_2(model)
+  File "D:\xinyan\engine\ASC20180512003002.py", line 133, in score_card_2
+    if float(model["huabei_totalcreditamount"]) >= 789:
+ValueError: could not convert string to float: "{'mapping_id': '9065047274427650581', 'balance': 1230.0, 'total_profit': 0.0, 'total_quotient': 0.0, 'huabei_creditamount': 131.0, 'huabei_totalcreditamount': 50000.0}"
+
+2018-11-30 12:46:55,396-engine.derivation_param-INFO-HCBL011811300905285130,Get Model score:{"mode_type": "00", "userid": "0E0CA0C2593F4905B8E59ADA8A2BFBA8", "comprehensive_score": "200", "desc": "\u65b0\u6237A\u5361\u8bc4\u5206", "status": "DENY", "loanOrderNo": "HCBL011811300905285130", "productCode": "DFA4559127F811E889CE00163E2E2668"}
