@@ -12,7 +12,7 @@ Jinja2==2.10
 logger==1.4
 MarkupSafe==1.1.0
 Naked==0.1.31
-numpy==1.15.4
+numpy==1.22.0
 pandas==0.23.4
 pandasql==0.7.3
 pyasn1==0.4.4
